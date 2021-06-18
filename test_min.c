@@ -1,17 +1,8 @@
 #include <stdio.h>
 #include <assert.h>
 
-int min(int x[], int n){
-    int i;
-    int min = x[0];
+int min(int [], int )
     
-    for (i=0; i<n; i++){
-      if ( x[i] < min){
-          min = x[i];  
-          }
-          }     
-         return min;
-          }
 
 
 int main(void) {
