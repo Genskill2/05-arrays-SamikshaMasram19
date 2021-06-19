@@ -1,18 +1,8 @@
 #include <stdio.h>
-#include <assert.h>
 
 
-int max(int x[], int n){
-    int i;
-    int max = x[0];
+int max(int [], int ){
     
-    for (i=0; i<n; i++){
-      if ( x[i] > max){
-          max = x[i];  
-          }
-          }     
-         return max;
-          }
 
 
 int main(void) {
