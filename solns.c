@@ -25,8 +25,7 @@ float average(int a[], int n){
      printf("average is %f \n",avg);
        return avg;
        }
-
-   int mode(int a[], int n){
+int mode(int a[], int n){
       int c[n],count,large=c[0],i,no;
     for( i=0;i<n;i++){
         count=0;
